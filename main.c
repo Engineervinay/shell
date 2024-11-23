@@ -16,7 +16,7 @@ refresh();
     while(!quit){
         printw("VShell->> ");
         printw(command);
-
+        
         switch(ch){
             
             case 'q': printw("exiting");
